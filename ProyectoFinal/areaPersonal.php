@@ -32,6 +32,7 @@
             <div class="dropdown-child">
             <a href="principal.php">INICIO</a>
             <a href="areaPersonal.html">AREA PERSONAL</a>
+            <a href="index.php">SALIR</a>
           </div>
           </div>
         </div>
