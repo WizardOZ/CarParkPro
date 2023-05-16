@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Plazas">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="101dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="38dp"
+        android:text="ATRAS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button30"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="196dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="38dp"
+        android:text="CONFIRMAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/registrarVehiculo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:text="ELIGE PLAZA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="39dp"
+        android:background="#4C4A4A"
+        android:text="20"
+        app:layout_constraintStart_toEndOf="@+id/button15"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="78dp"
+        android:background="#4C4A4A"
+        android:text="02"
+        app:layout_constraintStart_toEndOf="@+id/button25"
+        app:layout_constraintTop_toBottomOf="@+id/registrarVehiculo2" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="78dp"
+        android:background="#4C4A4A"
+        android:text="03"
+        app:layout_constraintStart_toEndOf="@+id/button24"
+        app:layout_constraintTop_toBottomOf="@+id/registrarVehiculo2" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="78dp"
+        android:background="#4C4A4A"
+        android:text="04"
+        app:layout_constraintStart_toEndOf="@+id/button21"
+        app:layout_constraintTop_toBottomOf="@+id/registrarVehiculo2" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="36dp"
+        android:background="#4C4A4A"
+        android:text="06"
+        app:layout_constraintStart_toEndOf="@+id/button12"
+        app:layout_constraintTop_toBottomOf="@+id/button24" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:background="#4C4A4A"
+        android:text="07"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/button29"
+        app:layout_constraintTop_toBottomOf="@+id/button21" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="36dp"
+        android:background="#4C4A4A"
+        android:text="08"
+        app:layout_constraintStart_toEndOf="@+id/button14"
+        app:layout_constraintTop_toBottomOf="@+id/button22" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="37dp"
+        android:background="#4C4A4A"
+        android:text="10"
+        app:layout_constraintStart_toEndOf="@+id/button27"
+        app:layout_constraintTop_toBottomOf="@+id/button29" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="37dp"
+        android:background="#4C4A4A"
+        android:text="11"
+        app:layout_constraintStart_toEndOf="@+id/button20"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="37dp"
+        android:background="#4C4A4A"
+        android:text="12"
+        app:layout_constraintStart_toEndOf="@+id/button23"
+        app:layout_constraintTop_toBottomOf="@+id/button16" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="45dp"
+        android:background="#4C4A4A"
+        android:text="14"
+        app:layout_constraintStart_toEndOf="@+id/button9"
+        app:layout_constraintTop_toBottomOf="@+id/button20" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="43dp"
+        android:background="#4C4A4A"
+        android:text="15"
+        app:layout_constraintStart_toEndOf="@+id/button13"
+        app:layout_constraintTop_toBottomOf="@+id/button23" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="45dp"
+        android:background="#4C4A4A"
+        android:text="16"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/button17" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="78dp"
+        android:background="#4C4A4A"
+        android:text="01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registrarVehiculo2" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="36dp"
+        android:background="#4C4A4A"
+        android:text="05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button25" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="37dp"
+        android:background="#4C4A4A"
+        android:text="09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="39dp"
+        android:background="#4C4A4A"
+        android:text="17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="45dp"
+        android:background="#4C4A4A"
+        android:text="13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button27" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="39dp"
+        android:background="#4C4A4A"
+        android:text="18"
+        app:layout_constraintStart_toEndOf="@+id/button28"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="41dp"
+        android:background="#4C4A4A"
+        android:text="19"
+        app:layout_constraintStart_toEndOf="@+id/button10"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
