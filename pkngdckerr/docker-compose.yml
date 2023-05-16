@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+ 
+  back:
+    image: denoland/deno:1.32.1
+    ports:
+      - 8080:8080
+    volumes:
+      - ./back:/usr/src
+    command: bash -c "cd /usr/src && deno run -A main.ts"
