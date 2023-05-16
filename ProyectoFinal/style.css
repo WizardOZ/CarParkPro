@@ -1,0 +1,207 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+h1, h2, h3, h4, h5 ,h6{
+  font-weight: 200;
+}
+
+a{
+  text-decoration: none;
+}
+
+p, li, a{
+  font-size: 14px;
+}
+header {
+            width: 100%;
+            top: 0px;
+            position: fixed;
+            z-index: 10;
+            }
+Body::-webkit-scrollbar {
+ width: 12px;               /* width of the entire scrollbar */
+}
+
+Body::-webkit-scrollbar-track {
+  background: white;        /* color of the tracking area */
+}
+
+Body::-webkit-scrollbar-thumb {
+  background-color: lightgrey;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;  /* creates padding around scroll thumb */
+}
+
+.window-notice {
+            background: rgba(33, 41, 52, .85);
+            left: 0;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            display: flex;
+            position: fixed;
+            z-index: 999;
+            }
+.window-notice .content {
+                  background: #fff;
+                  border-radius: 2px;
+                  box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+                  box-sizing: content-box;
+                  display: flex;
+                  flex-direction: column;
+                  margin: auto;
+                  max-width: 700px;
+                  min-width: 320px !important;
+                  overflow: hidden;
+                  position: relative;
+                  width: 100%;
+                  padding: 2rem;
+                  font-size: 1.3rem;
+                }
+    .search_box{
+      position:  absolute;
+      top:  22%;
+      left:  50%;
+      transform: translate(-50%,-50%);
+      background: lightgrey;
+      height: 40px;
+      border-radius: 40px;
+      padding:10px;
+    }
+    .search_box:hover > input{
+      width: 240px;
+      padding: 0 20px;
+    }
+    .search_box:hover > .icon{
+      background: #536179;
+    }
+    .icon:hover{
+      transform: rotate(360deg)
+      scale(0.8);
+    }
+    .search_box input{
+      width: 0;
+      border: none;
+      outline: none;
+      padding: 0;
+      background: none;
+      font-size: 1.1rem;
+      transition: 0.5s ease;
+      line-height: 40px;
+      color: #fff;
+    }
+    .icon{
+      color: #21DFCD;
+      float: left;
+      width: 40px;
+      font-size: 1.3rem;
+      height: 40px;
+      border-radius: 50%;
+      background: #2f3640;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+    }
+              
+    .mainmenubtn {
+        background-color: skyblue;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding:20px;
+        margin-top:5px;
+    }
+    .mainmenubtn:hover {
+        background-color: blue;
+        }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-child {
+        display: none;
+        background-color: skyblue;
+        min-width: 200px;
+    }
+    .dropdown-child a {
+        color: blue;
+        padding: 20px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-child {
+        display: block;
+    }
+    .BusquedaRapida::-webkit-scrollbar {
+      width: 12px;               /* width of the entire scrollbar */
+    }
+
+    .BusquedaRapida::-webkit-scrollbar-thumb {
+      background-color: lightgrey;    /* color of the scroll thumb */
+      border-radius: 20px;       /* roundness of the scroll thumb */
+      border: 3px solid orange;  /* creates padding around scroll thumb */
+    }
+
+
+    .not_active { 
+            pointer-events: none; 
+            cursor: default; 
+        }
+
+    .search_box{
+      position:  absolute;
+      top:  22%;
+      left:  50%;
+      transform: translate(-50%,-50%);
+      background: lightgrey;
+      height: 40px;
+      border-radius: 40px;
+      padding:10px;
+    }
+    .search_box:hover > input{
+      width: 240px;
+      padding: 0 20px;
+    }
+    .search_box:hover > .icon{
+      background: #536179;
+    }
+    .icon:hover{
+      transform: rotate(360deg)
+      scale(0.8);
+    }
+    .search_box input{
+      width: 0;
+      border: none;
+      outline: none;
+      padding: 0;
+      background: none;
+      font-size: 1.1rem;
+      transition: 0.5s ease;
+      line-height: 40px;
+      color: #fff;
+    }
+    .icon{
+      color: #21DFCD;
+      float: left;
+      width: 40px;
+      font-size: 1.3rem;
+      height: 40px;
+      border-radius: 50%;
+      background: #2f3640;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+    }
+              }
