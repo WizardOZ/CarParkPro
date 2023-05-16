@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="./img/.jpg"/>
     <link rel="stylesheet" href="./style.css">
-    <title>NOMBRE_EMPRESA</title>
+    <title>CarParkPro</title>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   </head>
   <body background="./img/fondo_inicio.jpg">
@@ -25,7 +25,7 @@
           
           <div style="float: left;">
             <a href="principal.php"><img src="./img/.jpg" width="60px"></a>
-            <label>NOMBRE_EMPRESA</label>
+            <label>CarParkPro</label>
           </div>
           <div style="float: left; margin-left: 1200px;" class="dropdown">
             <button class="mainmenubtn">Main Menu</button>
